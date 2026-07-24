@@ -28,6 +28,7 @@
   text-align: center;
 }
 .team-descr {
+  margin: 8px 0;
   text-align: center;
   color: #434455;
 }
@@ -39,7 +40,7 @@
   justify-content: center;
   gap: 24px;
   padding: 0;
-  margin: 0;
+  margin-top: 8px;
   list-style: none;
 }
 .icons-item {
@@ -52,4 +53,14 @@
   border-radius: 40px;
   width: 40px;
   height: 40px;
+}
+.icons-item:hover,
+.icons-item:focus {
+  background-color: #404bbf;
+}
+.icons {
+  background-image: url(/images/icons.svg#);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
