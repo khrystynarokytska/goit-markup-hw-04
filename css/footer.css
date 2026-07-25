@@ -2,7 +2,9 @@
   padding: 100px 0;
   background-color: #2e2f42;
 }
-
+.footer-info {
+  margin-right: 120px;
+}
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -27,23 +29,22 @@
   margin-bottom: 16px;
 }
 
-.icons-link {
+.icons-link-footer {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   list-style: none;
   padding: 0;
   margin: 0;
-  justify-content: flex-start;
 }
 
-.icons-item {
+.icons-item-footer {
   width: 40px;
   height: 40px;
+  color: #f4f4fd;
 }
 .footer-container {
   display: flex;
-  align-items: baseline;
-  gap: 120px;
+  align-items: flex-start;
 }
 .icons-social {
   display: flex;

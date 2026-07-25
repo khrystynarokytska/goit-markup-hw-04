@@ -17,6 +17,10 @@
 .team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
+  box-shadow:
+    0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-ill {
 }
@@ -28,7 +32,7 @@
   text-align: center;
 }
 .team-descr {
-  margin: 8px 0;
+  margin: 0;
   text-align: center;
   color: #434455;
 }
@@ -40,27 +44,32 @@
   justify-content: center;
   gap: 24px;
   padding: 0;
-  margin-top: 8px;
+  margin: 8px 0 0;
   list-style: none;
 }
 .icons-item {
+  width: 40px;
+  height: 40px;
+  color: #f4f4fd;
+}
+
+.icons {
+}
+.icons-team {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  color: #fff;
-  background-color: #4d5ae5;
-  border-radius: 40px;
   width: 40px;
   height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icons-item:hover,
-.icons-item:focus {
+
+.icons-team:hover,
+.icons-team:focus {
   background-color: #404bbf;
 }
-.icons {
-  background-image: url(/images/icons.svg#);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.icons-team {
+  fill: #f4f4fd;
 }
